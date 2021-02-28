@@ -1,0 +1,245 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --main-color: #212121;
+  --text-color: #757575;
+  --footers-info-color: rgba(255, 255, 255, 0.6);
+  --hero-title-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --modal-btn-background-color: #2196f3;
+  --modal-btn-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --footer-adress-color: #ffffff;
+  --footer-logo-color: #ffffff;
+  --team-background-color: #f5f4fa;
+  --adv-ser-background-color: #e5e5e5;
+  --port-btn-background-color: #f5f4fa;
+  --port-btn-focus: #2196f3;
+  --port-card-description-color: #757575;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+.links {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+/*====COMPONENTS====*/
+.logo-span {
+  color: var(--accent-color);
+}
+.titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*====END COMPONENTS====*/
+/*====HEDER====*/
+.headers-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.navs-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.navs-link:hover,
+.navs-link:focus {
+  color: var(--accent-color);
+}
+.info-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.info-link:hover,
+.info-link:focus {
+  color: var(--accent-color);
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+/*====END HEDER====*/
+/*====HERO===== */
+.hero {
+  background: var(--hero-background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-title-color);
+}
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--modal-btn-color);
+  background: var(--modal-btn-background-color);
+  cursor: pointer;
+}
+/*====END HERO===== */
+/*====ADVANTAGES====*/
+.adv {
+  background: var(--adv-ser-background-color);
+}
+.adv-sup-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.adv-description {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/*====END ADVANTAGES====*/
+/*====SERVICES====*/
+.services {
+  background: var(--adv-ser-background-color);
+}
+/*====END SERVICES====*/
+/*====TEAM====*/
+.team {
+  background: var(--team-background-color);
+}
+.team-sup-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-description {
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/*====END TEAM====*/
+/*====FOOTER====*/
+.footers {
+  background: var(--footer-background-color);
+}
+.footers-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--footer-logo-color);
+}
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--accent-color);
+}
+.adress-link {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--footer-adress-color);
+}
+.footers-info-link:hover,
+.footers-info-link:focus {
+  color: var(--accent-color);
+}
+.footers-info-link {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--footers-info-color);
+}
+.footers-tel-link:hover,
+.footers-tel-link:focus {
+  color: var(--accent-color);
+}
+.footers-tel-link {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--footers-info-color);
+}
+/*====END FOOTER====*/
+/*====PORTFOLIO====*/
+.port-modal-btn:hover,
+.port-modal-btn:focus {
+  color: var(--hero-title-color);
+  background: var(--port-btn-focus);
+}
+.port-modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background: var(--port-btn-background-color);
+  cursor: pointer;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.card-description {
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: var(--port-card-description-color);
+}
+/*==== END PORTFOLIO====*/
